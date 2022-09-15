@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'camera-system'
+project = 'prisma-app'
 copyright = '2021, Graziella'
 author = 'Graziella'
 
