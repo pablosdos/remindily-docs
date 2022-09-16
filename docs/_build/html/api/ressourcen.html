@@ -98,7 +98,7 @@
 <section id="aufrufen-der-schedulers-eines-users">
 <h3>Aufrufen der Schedulers eines Users<a class="headerlink" href="#aufrufen-der-schedulers-eines-users" title="Permalink to this heading"></a></h3>
 <p>Das Abfragen aller Schedulers eines Users ist bspw. für Listenansichten im Frontend relevant. In der aktuellen Version werden alle jemals erstellten Schedulers eines Users durch diesen Endpunkt abgefragt – offene und bereits abgeschlossene.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ curl --location --request GET <span class="s1">&#39;&lt;baseURL&gt;/api/user/&lt;userId&gt;/schedulers&#39;</span> <span class="se">\</span>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>$ curl --location --request GET <span class="s1">&#39;&lt;baseURL&gt;/api/users/&lt;userId&gt;/schedulers&#39;</span> <span class="se">\</span>
 --header <span class="s1">&#39;Authorization: bearer &lt;keycloakToken&gt;&#39;</span>
 </pre></div>
 </div>

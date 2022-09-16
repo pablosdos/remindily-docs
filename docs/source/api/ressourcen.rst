@@ -24,7 +24,7 @@ Das Abfragen aller Schedulers eines Users ist bspw. für Listenansichten im Fron
 
 .. code-block:: sh
 
-    $ curl --location --request GET '<baseURL>/api/user/<userId>/schedulers' \
+    $ curl --location --request GET '<baseURL>/api/users/<userId>/schedulers' \
     --header 'Authorization: bearer <keycloakToken>'
 
 .. code-block:: json
