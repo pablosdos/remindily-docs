@@ -1,5 +1,5 @@
 ========================
-Prisma-App's Documentation
+Remindily – Documentation
 ========================
 
 

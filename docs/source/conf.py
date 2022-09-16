@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'prisma-app'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Remindily'
+copyright = '2022, remindily'
+author = 'remindily'
 
 release = '0.1'
 version = '0.1.0'
